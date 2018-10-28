@@ -1,0 +1,14 @@
+// Overriding styles
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 0;
+}
+
+.swiper-pagination {
+  background-color: #fff;
+  &-bullet {
+    margin: 0 4px;
+    &-active {
+      background: #FF530D;
+    }
+  }
+}
